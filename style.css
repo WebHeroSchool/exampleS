@@ -11,16 +11,19 @@ body{
 }
 
 .header {
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .container {
     max-width: 1030px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .header__top {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -35,6 +38,7 @@ body{
 
 .menu__left {
     display: flex;
+    justify-content: space-between;
 }
 
 .menu__link {
@@ -53,6 +57,7 @@ body{
 
 .menu__right {
     display: flex;
+    justify-content: space-between;
 }
 
 .right__item {
@@ -70,7 +75,7 @@ body{
 }
 
 .search__text {
-    width: 178px;
+    width: 170px;
     height: 19px;
     border: solid black;
     border-width: 0 0 1px 0;
@@ -78,12 +83,11 @@ body{
 
 .right__button {
     border: none;
-    background: none;
-    position: absolute;
-    top: 0;
-    right: -5px;
-    font-size: 14px;
-    cursor: pointer;
+    background: url(img/search.svg);
+    height: 19px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .la-search {
@@ -98,12 +102,9 @@ body{
     line-height: 1;
 }
 
-.la-search:before {
-    content: "\f002"
-}
-
 .right__link {
     display: flex;
+    justify-content: space-between;
 }
 
 .right__sign {
@@ -119,9 +120,9 @@ body{
 .right__cart {
     font-family: 'GothamProBold';
     font-size: 12px;
-    line-height: 48px;
+    line-height: 3px;
     text-transform: uppercase;
     color: #000000;
     text-decoration: none;
-    margin-left: 230px;
+    margin-left: 100px;
 }
